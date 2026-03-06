@@ -1,7 +1,5 @@
-<odoo>
-    <template id="assets_backend" name="custom_pdf_assets" inherit_id="web.assets_backend">
-        <xpath expr="." position="inside">
-            <script type="text/javascript" src="/custom_pdf_download/static/src/js/download_button.js"></script>
-        </xpath>
-    </template>
-</odoo>
+<template id="assets_backend" name="custom_pdf_assets" inherit_id="web.assets_backend">
+    <xpath expr="." position="inside">
+        <script type="text/javascript" src="/custom_pdf_download/static/src/js/download_button.js"/>
+    </xpath>
+</template>
