@@ -1,0 +1,13 @@
+<odoo>
+    <record id="view_form_custom_download" model="ir.ui.view">
+        <field name="name">custom.report.download</field>
+        <field name="model">your.model</field>
+        <field name="inherit_id">your.view_id</field>
+        <field name="arch" type="xml">
+            <xpath expr="//header" position="inside">
+                <button name="action_placeholder" string="Download PDF" type="object"
+                        class="btn-primary" id="custom_download_button"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
